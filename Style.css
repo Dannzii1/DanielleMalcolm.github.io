@@ -1,0 +1,116 @@
+body {
+  padding: 0;
+  margin: 0;
+  background:Snow;
+}
+.mygrid {
+  border: 2px Snow solid;
+  width: 1300px;
+  height: 1300px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+}
+
+.topBox{
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border: 2px LightSeaGreen solid;
+  background-color: LightSeaGreen;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.sideBox{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  border: 2px Lightgrey solid;
+  background-color: Lightgrey;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-family: Times New Roman;
+  font-size: 14px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.contantBox{
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  border: 2px snow solid;
+  background-color:snow;
+  margin-top: 10px;
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+.splitIT{
+  border: 6px silver double;
+  text-align: center;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+
+}
+
+.profilePicture{
+  border: 3px;
+  height: 250px;
+  width: 250px;
+  border-radius: 200px;
+}
+
+.icon{
+  height: 30px;
+  width: 30px;
+}
+
+.contactinformation{
+  border-bottom: 3px purple double;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.WorkExperience{
+  border-bottom:  3px purple double;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.Education{
+  border-bottom: 3px purple double;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.Expertise{
+  border-bottom: 3px purple double;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
