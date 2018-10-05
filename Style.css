@@ -53,12 +53,13 @@ body {
   grid-column-start: 4;
   grid-column-end: 7;
   grid-row-start: 3;
-  grid-row-end: 5;
-  border: 2px snow solid;
+  grid-row-end: 3;
+  border: 2px blue solid;
   background-color:snow;
   margin-top: 10px;
   font-family: Calibri;
   font-size: 14px;
+  grid=clear;
 }
 
 .splitIT{
@@ -99,6 +100,7 @@ body {
   padding-bottom: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+
 }
 
 .Education{
@@ -113,4 +115,20 @@ body {
   padding-bottom: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+}
+
+.flexIt{
+  display: flex;
+}
+
+.babyflexIt1{
+  width: auto;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+
+.babyflexIt2{
+  flex-wrap: wrap;
+  width: 75%;
+  padding-left: 20px;
 }
