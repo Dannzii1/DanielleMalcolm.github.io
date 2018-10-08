@@ -1,10 +1,10 @@
 body {
   padding: 0;
   margin: 0;
-  background:Snow;
+  background:white;
 }
 .mygrid {
-  border: 2px Snow solid;
+  border: 2px white solid;
   width: 1300px;
   height: 1300px;
   display: grid;
@@ -17,7 +17,7 @@ body {
   grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 3;
-  border: 2px LightSeaGreen solid;
+  border: 2px white solid;
   background-color: LightSeaGreen;
   display: flex;
   justify-content: center;
@@ -35,8 +35,8 @@ body {
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 5;
-  border: 2px Lightgrey solid;
-  background-color: Lightgrey;
+  border: 2px lightsalmon solid;
+  background-color: lightsalmon;
   padding: 10px;
   margin-left: 30px;
   margin-right: 10px;
@@ -54,9 +54,10 @@ body {
   grid-column-end: 7;
   grid-row-start: 3;
   grid-row-end: 3;
-  border: 2px blue solid;
-  background-color:snow;
+  border: 2px white solid;
+  background-color:white;
   margin-top: 10px;
+  margin-left: 30px;
   font-family: Calibri;
   font-size: 14px;
   grid=clear;
