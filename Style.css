@@ -49,7 +49,7 @@ body {
   border-top-right-radius: 30px;
 }
 
-.contantBox{
+.contentBox{
   grid-column-start: 4;
   grid-column-end: 7;
   grid-row-start: 3;
@@ -131,4 +131,10 @@ body {
   flex-wrap: wrap;
   width: 75%;
   padding-left: 20px;
+}
+
+.flexSmall{
+  flex-wrap: wrap;
+  width: 75%;
+  font-family: Comic Sans MS;
 }
