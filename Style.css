@@ -5,8 +5,8 @@ body {
 }
 .mygrid {
   border: 2px white solid;
-  width: 1300px;
-  height: 1300px;
+  width: auto;
+  height: auto;
   display: grid;
   grid-template-columns: 100px 100px;
   grid-template-rows: 100px 100px;
@@ -68,7 +68,7 @@ body {
   text-align: center;
   padding: 10px;
   margin-top: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   border-top-left-radius: 30px;
