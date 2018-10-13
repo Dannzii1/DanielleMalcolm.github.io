@@ -38,7 +38,7 @@ body {
   border: 2px lightsalmon solid;
   background-color: lightsalmon;
   padding: 10px;
-  margin-left: 30px;
+  margin-left: 150px;
   margin-right: 10px;
   margin-top: 10px;
   font-family: Times New Roman;
@@ -73,8 +73,6 @@ body {
   border-bottom-right-radius: 30px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-
-
 }
 
 .profilePicture{
